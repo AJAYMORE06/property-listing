@@ -1,25 +1,23 @@
-import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
-
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SigninComponent } from './signin/signin.component';
-import { SignupComponent } from './signup/signup.component';
-import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
-import { ListingsComponent } from './listings/listings.component';
-import { BookingsComponent } from './bookings/bookings.component';
-import { WishlistComponent } from './wishlist/wishlist.component';
-import { PropertyComponent } from './property/property.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { CommonModule } from '@angular/common';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ListingLocationComponent } from './listing-location/listing-location.component';
-import { ListingNameComponent } from './listing-name/listing-name.component';
-import { ListingTypeComponent } from './listing-type/listing-type.component';
+import { RouterModule, Routes } from "@angular/router";
+import { HomeComponent } from "./home/home.component";
+import { SigninComponent } from "./signin/signin.component";
+import { CommonModule } from "@angular/common";
+import { HttpClientModule } from "@angular/common/http";
+import { NgModule } from "@angular/core";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { BrowserModule } from "@angular/platform-browser";
+import { AppComponent } from "./app.component";
+import { BookingsComponent } from "./bookings/bookings.component";
+import { FooterComponent } from "./footer/footer.component";
+import { ListingLocationComponent } from "./listing-location/listing-location.component";
+import { ListingNameComponent } from "./listing-name/listing-name.component";
+import { ListingTypeComponent } from "./listing-type/listing-type.component";
+import { ListingsComponent } from "./listings/listings.component";
+import { NavbarComponent } from "./navbar/navbar.component";
+import { PagenotfoundComponent } from "./pagenotfound/pagenotfound.component";
+import { PropertyComponent } from "./property/property.component";
+import { SignupComponent } from "./signup/signup.component";
+import { WishlistComponent } from "./wishlist/wishlist.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: 'home/1', pathMatch: 'full' },
@@ -70,7 +68,6 @@ export const routes: Routes = [
     HttpClientModule,
     CommonModule,
     RouterModule.forRoot(routes),
-    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

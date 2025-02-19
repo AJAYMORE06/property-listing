@@ -5,7 +5,7 @@ This folder includes all of the databse code that the web application requires. 
 
 ## Database Design
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parithoshpoojary/property-listing/master/master/database/DB%20Design.JPG" />
+  <img src="https://raw.githubusercontent.com/ajaymore06/property-listing/master/master/database/DB%20Design.JPG" />
 </p>
 
 

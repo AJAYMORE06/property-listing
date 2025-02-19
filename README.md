@@ -1,12 +1,12 @@
-# <img src="https://raw.githubusercontent.com/parithoshpoojary/property-listing/resources/Resources%20-%20Main/Images/Logo.png" width="45" height="40" align="left"> Property Listing
+# <img src="https://raw.githubusercontent.com/ajaymore06/property-listing/resources/Resources%20-%20Main/Images/Logo.png" width="45" height="40" align="left"> Property Listing
 
 `PL (Property-Listing)` is an online web application that serves as a single platform for property buyers and sellers in India to discover properties of interest.
 
-#### For the service that runs the backend of the application check out [Property-Listing-Backend](https://github.com/parithoshpoojary/property-listing-api).
+#### For the service that runs the backend of the application check out [Property-Listing-Backend](https://github.com/ajaymore06/property-listing-api).
 
 ## Getting Started
 
-- **Clone the repo:** `git clone https://github.com/parithoshpoojary/property-listing.git`
+- **Clone the repo:** `git clone https://github.com/ajaymore06/property-listing.git`
 - **Change your dir to:** `cd property-listing/`
 
 ###### This will get a copy of the project installed locally. To install all of its dependencies and start the application, follow the instructions below.
@@ -41,11 +41,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Property Listing - UI
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parithoshpoojary/property-listing/resources/User%20Interface%20-%20Design/UI%20Desgins/GIT%20UI.png">
+  <img src="https://raw.githubusercontent.com/ajaymore06/property-listing/resources/User%20Interface%20-%20Design/UI%20Desgins/GIT%20UI.png">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parithoshpoojary/property-listing/resources/User%20Interface%20-%20Design/UI%20Desgins/UI%20-%20Github.png">
+  <img src="https://raw.githubusercontent.com/ajaymore06/property-listing/resources/User%20Interface%20-%20Design/UI%20Desgins/UI%20-%20Github.png">
 </p>
 
 ## Branches
@@ -53,8 +53,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 #### Master Branch
 
 - The `master` branch contains the front-end code.
-  - **[Database](https://github.com/parithoshpoojary/property-listing/tree/master/database)** - This consists of the database design and the database(sql) code for creating the table in the database.
-  - This contains the code for the frontend of the web application - to get a better understanding of the project directory and its folders functionality **[click here](https://github.com/parithoshpoojary/property-listing/blob/master/projectdescp.md)**
+  - **[Database](https://github.com/ajaymore06/property-listing/tree/master/database)** - This consists of the database design and the database(sql) code for creating the table in the database.
+  - This contains the code for the frontend of the web application - to get a better understanding of the project directory and its folders functionality **[click here](https://github.com/ajaymore06/property-listing/blob/master/projectdescp.md)**
 
 #### Resources Branch
 
